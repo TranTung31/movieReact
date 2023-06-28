@@ -1,0 +1,38 @@
+.Menu {
+  width: 40px;
+  position: fixed;
+  left: 0;
+  top: 20%;
+  padding: 6px 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  z-index: 100;
+  transform-origin: left center;
+  transition: all 0.3s linear;
+  &:hover {
+    width: 180px;
+  }
+
+  .menuItem {
+    width: max-content;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding: 6px 4px;
+    cursor: pointer;
+
+    .icon {
+      font-size: 24px;
+    }
+
+    .name {
+      color: rgba(255, 255, 255, 0.6);;
+      font-size: 1.6rem;
+      margin-left: 16px;
+      font-weight: 500;
+      &:hover {
+        color: var(--color-white);
+      }
+    }
+  }
+}

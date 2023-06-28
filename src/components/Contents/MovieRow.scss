@@ -1,0 +1,136 @@
+.movieRowContainer {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-background);
+  color: var(--color-white);
+  padding: 20px 20px 0;
+  position: relative;
+
+  .heading {
+    font-size: 1.8rem;
+    user-select: none;
+  }
+
+  .movieSlither {
+    display: grid;
+    gap: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    overflow: hidden;
+    transition: all 0.3 linear;
+    scroll-behavior: smooth;
+
+    &:hover .movieItem {
+      opacity: 0.5;
+    }
+
+    .movieItem {
+      transform: scale(1);
+      transition: all 0.3s ease-out 0s;
+      max-width: 400px;
+      max-height: 500px;
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+
+      &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .movieName {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 1.6rem;
+        padding: 8px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.65);
+      }
+    }
+  }
+
+  .btn-left {
+    position: absolute;
+    top: 64%;
+    left: 30px;
+    width: 40px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    transform: translateY(-50px);
+    border-radius: 6px;
+    z-index: 20;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    &:hover svg {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+
+    svg {
+      opacity: 0.7;
+      font-size: 50px;
+      transform: scale(1);
+      transition: all 0.3s linear;
+    }
+    &.isNetflix {
+      top: 50%;
+      width: 50px;
+      height: 100px;
+    }
+  }
+
+  .btn-right {
+    position: absolute;
+    top: 64%;
+    right: 30px;
+    width: 40px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    transform: translateY(-50px);
+    border-radius: 6px;
+    z-index: 20;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    &:hover svg {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+
+    svg {
+      opacity: 0.7;
+      font-size: 50px;
+      transform: scale(1);
+      transition: all 0.3s linear;
+    }
+    &.isNetflix {
+      top: 50%;
+      width: 50px;
+      height: 100px;
+    }
+  }
+}
