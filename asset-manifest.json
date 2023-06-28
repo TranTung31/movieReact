@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movieReact/static/css/main.0f14a3ba.chunk.css",
+    "main.js": "/movieReact/static/js/main.d18c1451.chunk.js",
+    "main.js.map": "/movieReact/static/js/main.d18c1451.chunk.js.map",
+    "runtime-main.js": "/movieReact/static/js/runtime-main.ed02f5bf.js",
+    "runtime-main.js.map": "/movieReact/static/js/runtime-main.ed02f5bf.js.map",
+    "static/js/2.ad8354bf.chunk.js": "/movieReact/static/js/2.ad8354bf.chunk.js",
+    "static/js/2.ad8354bf.chunk.js.map": "/movieReact/static/js/2.ad8354bf.chunk.js.map",
+    "static/js/3.b964de63.chunk.js": "/movieReact/static/js/3.b964de63.chunk.js",
+    "static/js/3.b964de63.chunk.js.map": "/movieReact/static/js/3.b964de63.chunk.js.map",
+    "index.html": "/movieReact/index.html",
+    "static/css/main.0f14a3ba.chunk.css.map": "/movieReact/static/css/main.0f14a3ba.chunk.css.map",
+    "static/js/2.ad8354bf.chunk.js.LICENSE.txt": "/movieReact/static/js/2.ad8354bf.chunk.js.LICENSE.txt",
+    "static/media/Logo_Netflix_GG.77ba64d8.png": "/movieReact/static/media/Logo_Netflix_GG.77ba64d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed02f5bf.js",
+    "static/js/2.ad8354bf.chunk.js",
+    "static/css/main.0f14a3ba.chunk.css",
+    "static/js/main.d18c1451.chunk.js"
+  ]
+}
