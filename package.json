@@ -1,5 +1,5 @@
 {
-  "name": "eric-app",
+  "name": "movie-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://trantung31.github.io/movieReact",
@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
     "gh-pages": "^5.0.0",
     "moment": "^2.29.4",
     "react": "^17.0.2",
